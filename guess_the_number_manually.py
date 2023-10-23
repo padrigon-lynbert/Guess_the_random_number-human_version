@@ -1,8 +1,9 @@
 import random
 import os
+
 def cls(): os.system('cls')
 
-r = random.randint(1, 1000)
+seek_this = random.randint(1, 1000)
 
 def guess_random(random_number): 
     while True:
@@ -19,6 +20,6 @@ def guess_random(random_number):
             else:
                 print("Higher")
 
-guess_random(r)
+guess_random(seek_this)
 
         
