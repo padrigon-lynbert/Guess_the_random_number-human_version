@@ -1,9 +1,9 @@
 import random
 import os
 
-def cls(): os.system('cls')
+def cls(): os.system('cls') #clear set as a function
 
-seek_this = random.randint(1, 1000)
+seek_this = random.randint(1, 1000) #the random number that you are seeking
 
 def guess_random(random_number): 
     while True:
